@@ -31,6 +31,7 @@
     height: 500px;
     background-size: cover;
     background-position: center;
+    margin-bottom: 10px;
     position: relative;
 
 }
@@ -41,6 +42,46 @@
 
 .box.one .card:hover{
     background-image: url('../img/1b.webp');
+}
+
+.box.two .card{
+    background-image: url('../img/2.webp');
+}
+
+.box.two .card:hover{
+    background-image: url('../img/2b.webp');
+}
+
+.box.three .card{
+    background-image: url('../img/3.webp');
+}
+
+.box.three .card:hover{
+    background-image: url('../img/3b.webp');
+}
+
+.box.four .card{
+    background-image: url('../img/4.webp');
+}
+
+.box.four .card:hover{
+    background-image: url('../img/4b.webp');
+}
+
+.box.five .card{
+    background-image: url('../img/5.webp');
+}
+
+.box.five .card:hover{
+    background-image: url('../img/5b.webp');
+}
+
+.box.six .card{
+    background-image: url('../img/6.webp');
+}
+
+.box.six .card:hover{
+    background-image: url('../img/6b.webp');
 }
 
 /* proprietà heart */
@@ -110,10 +151,10 @@
 
 /* ******debug****** */
 
-.contenitor.debug{
+/* .contenitor.debug{
     height: 1100px;
     background-color: grey;
-}
+} */
 
 /* .debug .box{
     height: 500px;
