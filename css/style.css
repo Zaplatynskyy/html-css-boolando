@@ -24,6 +24,12 @@
     float: left;
 }
 
+/* proprietà delle immagini */
+
+.card{
+    height: 440px;
+}
+
 /* ******debug****** */
 
 .contenitor.debug{
@@ -34,5 +40,33 @@
 .debug .box{
     height: 500px;
     background-color: yellow;
+    border: 1px solid black;
+}
+
+.debug .card{
+    background-color: violet;
+}
+
+.debug .heart{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.debug .scount{
+    width: 200px;
+    height: 30px;
+    background-color: green;
+}
+
+.debug .text{
+    height: 60px;
+    background-color: lightblue;
+}
+
+.debug .brand,
+.debug .name,
+.debug .price{
+    height: calc( 60px / 3 );
     border: 1px solid black;
 }
