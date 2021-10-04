@@ -28,7 +28,27 @@
 
 .card{
     height: 440px;
+    position: relative;
 }
+
+/* proprietà heart */
+
+.card > .heart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+/* proprietà scount */
+
+/* proprietà text */
+
 
 /* ******debug****** */
 
@@ -47,11 +67,11 @@
     background-color: violet;
 }
 
-.debug .heart{
+/* .debug .heart{
     width: 50px;
     height: 50px;
     background-color: red;
-}
+} */
 
 .debug .scount{
     width: 200px;
