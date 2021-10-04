@@ -28,8 +28,19 @@
 /* proprietà delle immagini */
 
 .card{
-    height: 440px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
     position: relative;
+
+}
+
+.box.one .card{
+    background-image: url('../img/1.webp');
+}
+
+.box.one .card:hover{
+    background-image: url('../img/1b.webp');
 }
 
 /* proprietà heart */
@@ -104,7 +115,7 @@
     background-color: grey;
 }
 
-.debug .box{
+/* .debug .box{
     height: 500px;
     background-color: yellow;
     border: 1px solid black;
@@ -112,7 +123,7 @@
 
 .debug .card{
     background-color: violet;
-}
+} */
 
 /* .debug .heart{
     width: 50px;
