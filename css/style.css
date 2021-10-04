@@ -10,10 +10,29 @@
     margin: auto;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* proprietà box */
+
+.box{
+    width: calc( 100% / 3 - 20px );
+    margin: 10px;
+    float: left;
+}
 
 /* ******debug****** */
 
 .contenitor.debug{
-    height: 800px;
+    height: 1100px;
     background-color: grey;
+}
+
+.debug .box{
+    height: 500px;
+    background-color: yellow;
+    border: 1px solid black;
 }
