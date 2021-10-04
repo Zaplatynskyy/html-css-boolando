@@ -1,6 +1,19 @@
+/* ******commons****** */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.contenitor{
+    width: 70%;
+    margin: auto;
+}
+
+
+/* ******debug****** */
+
+.contenitor.debug{
+    height: 800px;
+    background-color: grey;
+}
